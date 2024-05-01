@@ -5,6 +5,7 @@ const fourSum = (nums, target) => {
         }
         
         nums.sort((a, b) => a - b);
+        console.log(nums)
         
         const res = [];
         
