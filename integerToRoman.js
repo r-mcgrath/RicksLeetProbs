@@ -25,9 +25,9 @@ const intToRoman = (num) => {
     let temp = parseInt(numArray[i]) * 10**power;
     console.log(temp)
     
-    if (temp === 0) {
-        i++;
-    }
+    // if (temp === 0) {
+    //     i++;
+    // }
     
     while(temp > 0)  {
         if (temp >= 1000) {
@@ -87,9 +87,9 @@ const intToRoman = (num) => {
 let num1 = 3749;
 let num2 = 58;
 let num3 = 1994;
-let num4 = 1;
+let num4 = 101;
 
-console.log(intToRoman(num1))
+//console.log(intToRoman(num1))
 // console.log(intToRoman(num2))
 // console.log(intToRoman(num3))
-// console.log(intToRoman(num4))
+ console.log(intToRoman(num4))
